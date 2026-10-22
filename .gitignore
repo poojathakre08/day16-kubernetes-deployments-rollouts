@@ -1,0 +1,17 @@
+# Kubernetes credentials and cluster configuration
+.kube/
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+
+# Temporary output
+*.log
+*.tmp
